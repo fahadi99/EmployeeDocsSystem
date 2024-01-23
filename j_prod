@@ -1,0 +1,15 @@
+pipeline{
+   agent any
+   stages{
+      stage('login server'){
+         steps{
+            sshagent(credentials:['EFiles_Prod_Key']){
+               sh 'ssh  -o StrictHostKeyChecking=no  ubuntu@52.76.177.240 /var/www/jenkins/prod_build.sh'
+          }
+        echo "success Build"
+         }
+       }
+   }
+}
+
+

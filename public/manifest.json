@@ -1,0 +1,54 @@
+{
+    "name": "Employee Portal | SmartOne",
+    "short_name": "Smart Files",
+    "short_url": "index.php",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3f4254",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/assets/media/logos/AppImages/android/android-launchericon-72-72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/assets/media/logos/AppImages/android/android-launchericon-96-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/assets/media/logos/AppImages/ios/128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/assets/media/logos/AppImages/android/android-launchericon-144-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/assets/media/logos/AppImages/ios/152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/assets/media/logos/AppImages/android/android-launchericon-192-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+
+        },
+        {
+            "src": "/assets/media/logos/AppImages/android/android-launchericon-384-384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/assets/media/logos/AppImages/android/android-launchericon-512-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
